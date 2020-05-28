@@ -13,5 +13,6 @@ six==1.13.0
 twilio==6.33.1
 urllib3==1.25.7
 Werkzeug==0.16.0
-transformers
+transformers~=2.6.0
 tokenizers
+torch
