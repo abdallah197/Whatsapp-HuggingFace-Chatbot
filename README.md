@@ -3,3 +3,9 @@ A repository for buldinng a chatbot using (DialoGPT)[https://huggingface.co/micr
 
 ## Installation
 `pip install -r requirements.txt` 
+
+
+### todo
+* Put a .sh file 
+    * sudo snap install ngrok
+    * start the documentation
