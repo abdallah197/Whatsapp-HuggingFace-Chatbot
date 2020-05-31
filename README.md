@@ -1,11 +1,13 @@
-# Whatsapp-HuggingFace-Chatbot
-A repository for buldinng a chatbot using (DialoGPT)[https://huggingface.co/microsoft/DialoGPT-medium] from Huggingface transformers.
+# Whatsapp-HuggingFace-Chatbot :fire::fire:
+A repository for building a chatbot using (DialoGPT)[https://huggingface.co/microsoft/DialoGPT-medium] from Huggingface transformers.
 
 ## Installation
-`pip install -r requirements.txt` 
-
+To Install all requirements run:
+```
+pip install -r requirements.txt
+sudo snap install ngrok
+```
 
 ### todo
 * Put a .sh file 
-    * sudo snap install ngrok
     * start the documentation
