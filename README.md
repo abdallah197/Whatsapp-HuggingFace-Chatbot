@@ -20,7 +20,7 @@ pip install -r requirements.txt
 sudo snap install ngrok
 ```
 
-### Want to give the chatbot a try?
+## Want to give the chatbot a try?
 1. follow the steps in the installation section.
 2. run `python bot.py --help`
 3. run `ngrok http 5000` in the terminal.
@@ -29,3 +29,6 @@ sudo snap install ngrok
 5. Hit Save
 6. Start Chatting !!
 
+## Acknowledgements
+This project is built on top of [Twilio](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio)
+ tutorial to use their WhatsApp messaging api. and uses Huggingface implementation of [DialoGPT](https://huggingface.co/microsoft/DialoGPT-medium).

@@ -8,9 +8,15 @@ from twilio.twiml.messaging_response import MessagingResponse
 parser = argparse.ArgumentParser(
     description="Process chatbot variables. for help run python bot.py -h"
 )
-parser.add_argument("-m", "--model", type=str, default='medium', help="Size of DialoGPT model")
 parser.add_argument(
-    "-s", "--steps", type=int, default=7, help="Number of steps to run the Dialogue System for"
+    "-m", "--model", type=str, default="medium", help="Size of DialoGPT model"
+)
+parser.add_argument(
+    "-s",
+    "--steps",
+    type=int,
+    default=7,
+    help="Number of steps to run the Dialogue System for",
 )
 
 args = parser.parse_args()
