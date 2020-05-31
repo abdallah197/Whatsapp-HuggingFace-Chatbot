@@ -1,13 +1,26 @@
-# Whatsapp-HuggingFace-Chatbot :fire::fire:
-A repository for building a chatbot using (DialoGPT)[https://huggingface.co/microsoft/DialoGPT-medium] from Huggingface transformers.
+# :fire::fire: Whatsapp-HuggingFace-Chatbot :fire::fire:
+Using [DialoGPT](https://huggingface.co/microsoft/DialoGPT-medium) dialogue response generation model by Microsoft to build a chatbot and integrate it with WhatsApp.
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](images/chatbot.mp4)
+
+
+## Overview
+The project uses the [Twilio API for Whatsapp](https://www.twilio.com/whatsapp) [1] together with
+[Flask web application framework](https://palletsprojects.com/p/flask/) to handle sending
+and receiving messages to WhatsApp. And [Huggingface](https://huggingface.co/) 
+implementation of DialoGPT which is a large-scale pretrained dialogue response generation model
+for multiturn conversations. 
 
 ## Installation
-To Install all requirements run:
+* Clone the repo <br/>
+`git clone https://github.com/abdallah197/Whatsapp-HuggingFace-Chatbot.git`
+* To Install all requirements run
 ```
 pip install -r requirements.txt
 sudo snap install ngrok
 ```
 
-### todo
-* Put a .sh file 
-    * start the documentation
+### Want to give the chatbot a try?
+
+
+
