@@ -1,7 +1,7 @@
 # :fire::fire: Whatsapp-HuggingFace-Chatbot :fire::fire:
 Using [DialoGPT](https://huggingface.co/microsoft/DialoGPT-medium) dialogue response generation model by Microsoft to build a chatbot and integrate it with WhatsApp.
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](images/chatbot.mp4)
+![Demo](images/chatbot.gif)
 
 
 ## Overview
