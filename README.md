@@ -21,6 +21,11 @@ sudo snap install ngrok
 ```
 
 ### Want to give the chatbot a try?
-
-
+1. follow the steps in the installation section.
+2. run `python bot.py --help`
+3. run `ngrok http 5000` in the terminal.
+4. copy the first forwarding url in the “When a message comes in” field in [Twilio Sandbox](https://www.twilio.com/console) <br/>
+![twilio console](images/Twilio%20Console%20-%20WhatsApp.png)
+5. Hit Save
+6. Start Chatting !!
 
